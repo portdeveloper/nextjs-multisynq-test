@@ -1,7 +1,7 @@
 "use client";
 import { useStateTogether } from "react-together";
 
-export default function Counter() {
+export default function UseStateTogetherExample() {
   const [count, setCount] = useStateTogether("count", 0);
 
   return (
