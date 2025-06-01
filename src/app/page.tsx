@@ -9,7 +9,7 @@ export default function Home() {
       <div className="min-h-screen p-8 bg-white dark:bg-gray-900">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            react-together
+            NextJS + react-together starter kit
           </h1>
 
           <UseStateTogetherExample />
