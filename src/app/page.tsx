@@ -1,6 +1,7 @@
 "use client";
 import ReactTogetherProvider from "../components/ReactTogetherProvider";
-import Counter from "../components/Counter";
+import UseStateTogetherExample from "../components/UseStateTogetherExample";
+import LearnMore from "../components/LearnMore";
 
 export default function Home() {
   return (
@@ -11,31 +12,9 @@ export default function Home() {
             react-together
           </h1>
 
-          <Counter />
+          <UseStateTogetherExample />
 
-          <div className="space-y-4">
-            <h3 className="text-xl font-bold text-gray-900 dark:text-white">
-              Learn More
-            </h3>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="https://reacttogether.dev/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg"
-              >
-                React Together Docs
-              </a>
-              <a
-                href="https://github.com/portdeveloper/nextjs-multisynq-test"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-6 py-3 bg-gray-800 hover:bg-gray-900 text-white rounded-lg"
-              >
-                View Source Code
-              </a>
-            </div>
-          </div>
+          <LearnMore />
         </div>
       </div>
     </ReactTogetherProvider>
