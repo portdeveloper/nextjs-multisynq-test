@@ -1,6 +1,7 @@
 # 🚀 Next.js React Together Starter Kit
 
-A Next.js application showcasing Multisynq's `react-together` library.
+A Next.js application showcasing Multisynq's `react-together` library. 
+To learn more about `react-together`, please visit [https://reacttogether.dev/](https://reacttogether.dev/).
 
 ## 🚀 Quick Start
 
