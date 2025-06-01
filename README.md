@@ -14,7 +14,7 @@ A Next.js application showcasing Multisynq's `react-together` library.
 1. **Clone the repository**
    ```bash
    git clone <your-repo-url>
-   cd nextjs-multisynq-test
+   cd nextjs-react-together-starter
    ```
 
 2. **Install dependencies**
@@ -53,13 +53,6 @@ A Next.js application showcasing Multisynq's `react-together` library.
    
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 🔧 Available Scripts
-
-- `npm run dev` - Start development server with Turbopack
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
-
 ## 🚀 Deployment
 
 ### Vercel (Recommended)
@@ -69,7 +62,7 @@ The easiest way to deploy is using [Vercel](https://vercel.com):
 1. Push your code to GitHub
 2. Connect your repository to Vercel
 3. Add your environment variables in the Vercel dashboard
-4. Deploy!
+4. Deploy! 
 
 
 ## 📄 License
