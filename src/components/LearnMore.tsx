@@ -9,7 +9,7 @@ export default function LearnMore() {
           href="https://reacttogether.dev/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline underline-offset-2 hover:underline-offset-4 transition-all"
+          className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline"
         >
           React Together Docs
         </a>
@@ -18,7 +18,7 @@ export default function LearnMore() {
           href="https://github.com/portdeveloper/nextjs-multisynq-test"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 underline underline-offset-2 hover:underline-offset-4 transition-all"
+          className="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200 underline"
         >
           View Source Code
         </a>

@@ -6,7 +6,7 @@ export default function UseStateTogetherExample() {
 
   return (
     <div className="rounded-lg p-8 mb-8 bg-gray-50 dark:bg-gray-800">
-      <h2 className="text-2xl font-bold mb-4">useStateTogether Example</h2>
+      <h2 className="text-2xl font-bold mb-4">useStateTogether</h2>
       <p className="mb-4">
         Open this page in multiple tabs to see real-time sync!
       </p>
