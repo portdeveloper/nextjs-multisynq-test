@@ -8,21 +8,10 @@ export default function Home() {
       <div className="min-h-screen p-8 bg-white dark:bg-gray-900">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            React Together Demo
+            react-together
           </h1>
-          <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-            Real-time collaborative state management demo
-          </p>
 
-          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-8 mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-              Live Counter Demo
-            </h2>
-            <p className="text-gray-600 dark:text-gray-300 mb-6">
-              Open this page in multiple tabs to see real-time sync!
-            </p>
-            <Counter />
-          </div>
+          <Counter />
 
           <div className="space-y-4">
             <h3 className="text-xl font-bold text-gray-900 dark:text-white">
