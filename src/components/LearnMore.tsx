@@ -1,9 +1,7 @@
 export default function LearnMore() {
   return (
     <div className="mt-8 space-y-2">
-      <h3 className="text-lg font-semibold text-gray-700 dark:text-gray-300">
-        Learn More
-      </h3>
+      <h3 className="text-lg font-semibold text-gray-700 dark:text-gray-300">Learn More</h3>
       <div className="flex flex-col sm:flex-row gap-4 justify-center text-sm">
         <a
           href="https://reacttogether.dev/"
@@ -25,4 +23,4 @@ export default function LearnMore() {
       </div>
     </div>
   );
-} 
+}

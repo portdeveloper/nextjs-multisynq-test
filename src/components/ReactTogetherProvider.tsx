@@ -7,9 +7,7 @@ interface ReactTogetherProviderProps {
   children: React.ReactNode;
 }
 
-export default function ReactTogetherProvider({
-  children,
-}: ReactTogetherProviderProps) {
+export default function ReactTogetherProvider({ children }: ReactTogetherProviderProps) {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
@@ -31,7 +29,9 @@ export default function ReactTogetherProvider({
         <div className="bg-yellow-100 border border-yellow-400 text-yellow-700 px-4 py-3 rounded">
           <strong>Environment Variables Missing!</strong>
           <p>Please set NEXT_PUBLIC_APP_ID and NEXT_PUBLIC_API_KEY in your .env.local file</p>
-          <p className="mt-2 text-sm">The Counter component won&apos;t work without proper React Together configuration.</p>
+          <p className="mt-2 text-sm">
+            The Counter component won&apos;t work without proper React Together configuration.
+          </p>
         </div>
         <div className="p-8">
           <div className="text-gray-600">
