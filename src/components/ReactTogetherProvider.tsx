@@ -1,6 +1,6 @@
 "use client";
 
-import { StrictMode, useEffect, useState } from "react";
+import { StrictMode } from "react";
 import { ReactTogether } from "react-together";
 
 interface ReactTogetherProviderProps {
@@ -8,17 +8,6 @@ interface ReactTogetherProviderProps {
 }
 
 export default function ReactTogetherProvider({ children }: ReactTogetherProviderProps) {
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
-  // Don't render until we're on the client side
-  if (!isClient) {
-    return <div>Loading...</div>;
-  }
-
   // Check if environment variables are available
   const appId = process.env.NEXT_PUBLIC_APP_ID;
   const apiKey = process.env.NEXT_PUBLIC_API_KEY;
